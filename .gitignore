@@ -1,0 +1,9 @@
+Library/
+Logs/
+obj/
+Packages/
+ProjectSettings/
+Temp/
+.vsconfig
+Assembly-CSharp.csproj
+My Flappy.sln

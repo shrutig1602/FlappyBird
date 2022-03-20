@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &912931763157552652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 912931763157552642}
+  - component: {fileID: 912931763157552643}
+  m_Layer: 0
+  m_Name: soundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &912931763157552642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912931763157552652}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &912931763157552643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912931763157552652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a881f8820610925498df721a0756a988, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: b68c77d755c1b7f4ab0c75ab4f88b61b, type: 3}
+    source: {fileID: 0}
+    name: die
+    volume: 1
+    pitch: 1
+  - clip: {fileID: 8300000, guid: 6a2e13186a3a2fb45a0e0d99aab0ce1f, type: 3}
+    source: {fileID: 0}
+    name: hit
+    volume: 1
+    pitch: 1
+  - clip: {fileID: 8300000, guid: 03ebe46ed47bb314985e956f63122392, type: 3}
+    source: {fileID: 0}
+    name: point
+    volume: 1
+    pitch: 1
+  - clip: {fileID: 8300000, guid: ba47ed68d1a501346bd342541b427f4d, type: 3}
+    source: {fileID: 0}
+    name: transition
+    volume: 1
+    pitch: 1
+  - clip: {fileID: 8300000, guid: 88f11bfcc745bc2408151c99f2cf0aa7, type: 3}
+    source: {fileID: 0}
+    name: flap
+    volume: 1
+    pitch: 1
+  - clip: {fileID: 8300000, guid: 1d86f6f6fd5e61846bd434de8bc36cf0, type: 3}
+    source: {fileID: 0}
+    name: btnPress
+    volume: 1
+    pitch: 1
+  - clip: {fileID: 8300000, guid: 8284d98e53bf6e4449bb387a448a4879, type: 3}
+    source: {fileID: 0}
+    name: changing
+    volume: 1
+    pitch: 1
+  - clip: {fileID: 8300000, guid: 633851d69ecf1b240acdd1e08209b804, type: 3}
+    source: {fileID: 0}
+    name: btnClick
+    volume: 1
+    pitch: 1
